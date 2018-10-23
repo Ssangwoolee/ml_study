@@ -1,6 +1,10 @@
 from distutils.core import setup
 from Cython.Build import cythonize
 
-setup(
+"""setup(
     ext_modules = cythonize("helloworld.pyx")
+)"""
+
+setup(
+    ext_modules=cythonize("fib.pyx")
 )
